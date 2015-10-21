@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D9ADA71BD7221300AC1194 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D9ADA61BD7221300AC1194 /* main.m */; };
+		18D9ADAA1BD7221300AC1194 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D9ADA91BD7221300AC1194 /* AppDelegate.m */; };
+		18D9ADAD1BD7221300AC1194 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D9ADAC1BD7221300AC1194 /* ViewController.m */; };
+		18D9ADB01BD7221300AC1194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D9ADAE1BD7221300AC1194 /* Main.storyboard */; };
+		18D9ADB31BD7221300AC1194 /* BlueToothTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18D9ADB11BD7221300AC1194 /* BlueToothTest.xcdatamodeld */; };
+		18D9ADB51BD7221300AC1194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D9ADB41BD7221300AC1194 /* Assets.xcassets */; };
+		18D9ADB81BD7221300AC1194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D9ADB61BD7221300AC1194 /* LaunchScreen.storyboard */; };
+		18D9ADC31BD7221300AC1194 /* BlueToothTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D9ADC21BD7221300AC1194 /* BlueToothTestTests.m */; };
+		18D9ADCE1BD7221300AC1194 /* BlueToothTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D9ADCD1BD7221300AC1194 /* BlueToothTestUITests.m */; };
+		18D9ADE51BD7237A00AC1194 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D9ADDE1BD7237A00AC1194 /* SVIndefiniteAnimatedView.m */; settings = {ASSET_TAGS = (); }; };
+		18D9ADE61BD7237A00AC1194 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18D9ADE01BD7237A00AC1194 /* SVProgressHUD.bundle */; settings = {ASSET_TAGS = (); }; };
+		18D9ADE71BD7237A00AC1194 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D9ADE21BD7237A00AC1194 /* SVProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
+		18D9ADE81BD7237A00AC1194 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D9ADE41BD7237A00AC1194 /* SVRadialGradientLayer.m */; settings = {ASSET_TAGS = (); }; };
+		18D9ADEB1BD7338500AC1194 /* SeviceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D9ADEA1BD7338500AC1194 /* SeviceTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		18D9ADEE1BD78B0300AC1194 /* CharacteristicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D9ADED1BD78B0300AC1194 /* CharacteristicTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18D9ADBF1BD7221300AC1194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D9AD9A1BD7221300AC1194 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D9ADA11BD7221300AC1194;
+			remoteInfo = BlueToothTest;
+		};
+		18D9ADCA1BD7221300AC1194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D9AD9A1BD7221300AC1194 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D9ADA11BD7221300AC1194;
+			remoteInfo = BlueToothTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18D9ADA21BD7221300AC1194 /* BlueToothTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueToothTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D9ADA61BD7221300AC1194 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18D9ADA81BD7221300AC1194 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18D9ADA91BD7221300AC1194 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18D9ADAB1BD7221300AC1194 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18D9ADAC1BD7221300AC1194 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18D9ADAF1BD7221300AC1194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18D9ADB21BD7221300AC1194 /* BlueToothTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlueToothTest.xcdatamodel; sourceTree = "<group>"; };
+		18D9ADB41BD7221300AC1194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D9ADB71BD7221300AC1194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18D9ADB91BD7221300AC1194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D9ADBE1BD7221300AC1194 /* BlueToothTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueToothTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D9ADC21BD7221300AC1194 /* BlueToothTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueToothTestTests.m; sourceTree = "<group>"; };
+		18D9ADC41BD7221300AC1194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D9ADC91BD7221300AC1194 /* BlueToothTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueToothTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D9ADCD1BD7221300AC1194 /* BlueToothTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueToothTestUITests.m; sourceTree = "<group>"; };
+		18D9ADCF1BD7221300AC1194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D9ADDD1BD7237A00AC1194 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		18D9ADDE1BD7237A00AC1194 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		18D9ADDF1BD7237A00AC1194 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		18D9ADE01BD7237A00AC1194 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		18D9ADE11BD7237A00AC1194 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		18D9ADE21BD7237A00AC1194 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		18D9ADE31BD7237A00AC1194 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		18D9ADE41BD7237A00AC1194 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		18D9ADE91BD7338500AC1194 /* SeviceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeviceTableViewController.h; sourceTree = "<group>"; };
+		18D9ADEA1BD7338500AC1194 /* SeviceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeviceTableViewController.m; sourceTree = "<group>"; };
+		18D9ADEC1BD78B0300AC1194 /* CharacteristicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacteristicTableViewController.h; sourceTree = "<group>"; };
+		18D9ADED1BD78B0300AC1194 /* CharacteristicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacteristicTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D9AD9F1BD7221300AC1194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D9ADBB1BD7221300AC1194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D9ADC61BD7221300AC1194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D9AD991BD7221300AC1194 = {
+			isa = PBXGroup;
+			children = (
+				18D9ADDB1BD7233E00AC1194 /* library  */,
+				18D9ADA41BD7221300AC1194 /* BlueToothTest */,
+				18D9ADC11BD7221300AC1194 /* BlueToothTestTests */,
+				18D9ADCC1BD7221300AC1194 /* BlueToothTestUITests */,
+				18D9ADA31BD7221300AC1194 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18D9ADA31BD7221300AC1194 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D9ADA21BD7221300AC1194 /* BlueToothTest.app */,
+				18D9ADBE1BD7221300AC1194 /* BlueToothTestTests.xctest */,
+				18D9ADC91BD7221300AC1194 /* BlueToothTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D9ADA41BD7221300AC1194 /* BlueToothTest */ = {
+			isa = PBXGroup;
+			children = (
+				18D9ADA81BD7221300AC1194 /* AppDelegate.h */,
+				18D9ADA91BD7221300AC1194 /* AppDelegate.m */,
+				18D9ADAB1BD7221300AC1194 /* ViewController.h */,
+				18D9ADAC1BD7221300AC1194 /* ViewController.m */,
+				18D9ADE91BD7338500AC1194 /* SeviceTableViewController.h */,
+				18D9ADEA1BD7338500AC1194 /* SeviceTableViewController.m */,
+				18D9ADEC1BD78B0300AC1194 /* CharacteristicTableViewController.h */,
+				18D9ADED1BD78B0300AC1194 /* CharacteristicTableViewController.m */,
+				18D9ADAE1BD7221300AC1194 /* Main.storyboard */,
+				18D9ADB41BD7221300AC1194 /* Assets.xcassets */,
+				18D9ADB61BD7221300AC1194 /* LaunchScreen.storyboard */,
+				18D9ADB91BD7221300AC1194 /* Info.plist */,
+				18D9ADB11BD7221300AC1194 /* BlueToothTest.xcdatamodeld */,
+				18D9ADA51BD7221300AC1194 /* Supporting Files */,
+			);
+			path = BlueToothTest;
+			sourceTree = "<group>";
+		};
+		18D9ADA51BD7221300AC1194 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18D9ADA61BD7221300AC1194 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18D9ADC11BD7221300AC1194 /* BlueToothTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				18D9ADC21BD7221300AC1194 /* BlueToothTestTests.m */,
+				18D9ADC41BD7221300AC1194 /* Info.plist */,
+			);
+			path = BlueToothTestTests;
+			sourceTree = "<group>";
+		};
+		18D9ADCC1BD7221300AC1194 /* BlueToothTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18D9ADCD1BD7221300AC1194 /* BlueToothTestUITests.m */,
+				18D9ADCF1BD7221300AC1194 /* Info.plist */,
+			);
+			path = BlueToothTestUITests;
+			sourceTree = "<group>";
+		};
+		18D9ADDB1BD7233E00AC1194 /* library  */ = {
+			isa = PBXGroup;
+			children = (
+				18D9ADDC1BD7237A00AC1194 /* SVProgressHUD */,
+			);
+			name = "library ";
+			path = BlueToothTest;
+			sourceTree = "<group>";
+		};
+		18D9ADDC1BD7237A00AC1194 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				18D9ADDD1BD7237A00AC1194 /* SVIndefiniteAnimatedView.h */,
+				18D9ADDE1BD7237A00AC1194 /* SVIndefiniteAnimatedView.m */,
+				18D9ADDF1BD7237A00AC1194 /* SVProgressHUD-Prefix.pch */,
+				18D9ADE01BD7237A00AC1194 /* SVProgressHUD.bundle */,
+				18D9ADE11BD7237A00AC1194 /* SVProgressHUD.h */,
+				18D9ADE21BD7237A00AC1194 /* SVProgressHUD.m */,
+				18D9ADE31BD7237A00AC1194 /* SVRadialGradientLayer.h */,
+				18D9ADE41BD7237A00AC1194 /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D9ADA11BD7221300AC1194 /* BlueToothTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D9ADD21BD7221300AC1194 /* Build configuration list for PBXNativeTarget "BlueToothTest" */;
+			buildPhases = (
+				18D9AD9E1BD7221300AC1194 /* Sources */,
+				18D9AD9F1BD7221300AC1194 /* Frameworks */,
+				18D9ADA01BD7221300AC1194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueToothTest;
+			productName = BlueToothTest;
+			productReference = 18D9ADA21BD7221300AC1194 /* BlueToothTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18D9ADBD1BD7221300AC1194 /* BlueToothTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D9ADD51BD7221300AC1194 /* Build configuration list for PBXNativeTarget "BlueToothTestTests" */;
+			buildPhases = (
+				18D9ADBA1BD7221300AC1194 /* Sources */,
+				18D9ADBB1BD7221300AC1194 /* Frameworks */,
+				18D9ADBC1BD7221300AC1194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D9ADC01BD7221300AC1194 /* PBXTargetDependency */,
+			);
+			name = BlueToothTestTests;
+			productName = BlueToothTestTests;
+			productReference = 18D9ADBE1BD7221300AC1194 /* BlueToothTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18D9ADC81BD7221300AC1194 /* BlueToothTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D9ADD81BD7221300AC1194 /* Build configuration list for PBXNativeTarget "BlueToothTestUITests" */;
+			buildPhases = (
+				18D9ADC51BD7221300AC1194 /* Sources */,
+				18D9ADC61BD7221300AC1194 /* Frameworks */,
+				18D9ADC71BD7221300AC1194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D9ADCB1BD7221300AC1194 /* PBXTargetDependency */,
+			);
+			name = BlueToothTestUITests;
+			productName = BlueToothTestUITests;
+			productReference = 18D9ADC91BD7221300AC1194 /* BlueToothTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D9AD9A1BD7221300AC1194 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18D9ADA11BD7221300AC1194 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = AVYZMF2J59;
+					};
+					18D9ADBD1BD7221300AC1194 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = AVYZMF2J59;
+						TestTargetID = 18D9ADA11BD7221300AC1194;
+					};
+					18D9ADC81BD7221300AC1194 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = AVYZMF2J59;
+						TestTargetID = 18D9ADA11BD7221300AC1194;
+					};
+				};
+			};
+			buildConfigurationList = 18D9AD9D1BD7221300AC1194 /* Build configuration list for PBXProject "BlueToothTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18D9AD991BD7221300AC1194;
+			productRefGroup = 18D9ADA31BD7221300AC1194 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D9ADA11BD7221300AC1194 /* BlueToothTest */,
+				18D9ADBD1BD7221300AC1194 /* BlueToothTestTests */,
+				18D9ADC81BD7221300AC1194 /* BlueToothTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D9ADA01BD7221300AC1194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D9ADB81BD7221300AC1194 /* LaunchScreen.storyboard in Resources */,
+				18D9ADB51BD7221300AC1194 /* Assets.xcassets in Resources */,
+				18D9ADB01BD7221300AC1194 /* Main.storyboard in Resources */,
+				18D9ADE61BD7237A00AC1194 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D9ADBC1BD7221300AC1194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D9ADC71BD7221300AC1194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D9AD9E1BD7221300AC1194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D9ADE81BD7237A00AC1194 /* SVRadialGradientLayer.m in Sources */,
+				18D9ADE51BD7237A00AC1194 /* SVIndefiniteAnimatedView.m in Sources */,
+				18D9ADB31BD7221300AC1194 /* BlueToothTest.xcdatamodeld in Sources */,
+				18D9ADAD1BD7221300AC1194 /* ViewController.m in Sources */,
+				18D9ADEB1BD7338500AC1194 /* SeviceTableViewController.m in Sources */,
+				18D9ADAA1BD7221300AC1194 /* AppDelegate.m in Sources */,
+				18D9ADA71BD7221300AC1194 /* main.m in Sources */,
+				18D9ADEE1BD78B0300AC1194 /* CharacteristicTableViewController.m in Sources */,
+				18D9ADE71BD7237A00AC1194 /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D9ADBA1BD7221300AC1194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D9ADC31BD7221300AC1194 /* BlueToothTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D9ADC51BD7221300AC1194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D9ADCE1BD7221300AC1194 /* BlueToothTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18D9ADC01BD7221300AC1194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D9ADA11BD7221300AC1194 /* BlueToothTest */;
+			targetProxy = 18D9ADBF1BD7221300AC1194 /* PBXContainerItemProxy */;
+		};
+		18D9ADCB1BD7221300AC1194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D9ADA11BD7221300AC1194 /* BlueToothTest */;
+			targetProxy = 18D9ADCA1BD7221300AC1194 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18D9ADAE1BD7221300AC1194 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D9ADAF1BD7221300AC1194 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18D9ADB61BD7221300AC1194 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D9ADB71BD7221300AC1194 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D9ADD01BD7221300AC1194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18D9ADD11BD7221300AC1194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D9ADD31BD7221300AC1194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlueToothTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Regor.BlueToothTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18D9ADD41BD7221300AC1194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlueToothTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Regor.BlueToothTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18D9ADD61BD7221300AC1194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlueToothTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Regor.BlueToothTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueToothTest.app/BlueToothTest";
+			};
+			name = Debug;
+		};
+		18D9ADD71BD7221300AC1194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlueToothTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Regor.BlueToothTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueToothTest.app/BlueToothTest";
+			};
+			name = Release;
+		};
+		18D9ADD91BD7221300AC1194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlueToothTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Regor.BlueToothTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlueToothTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18D9ADDA1BD7221300AC1194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlueToothTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Regor.BlueToothTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlueToothTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D9AD9D1BD7221300AC1194 /* Build configuration list for PBXProject "BlueToothTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D9ADD01BD7221300AC1194 /* Debug */,
+				18D9ADD11BD7221300AC1194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D9ADD21BD7221300AC1194 /* Build configuration list for PBXNativeTarget "BlueToothTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D9ADD31BD7221300AC1194 /* Debug */,
+				18D9ADD41BD7221300AC1194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18D9ADD51BD7221300AC1194 /* Build configuration list for PBXNativeTarget "BlueToothTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D9ADD61BD7221300AC1194 /* Debug */,
+				18D9ADD71BD7221300AC1194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18D9ADD81BD7221300AC1194 /* Build configuration list for PBXNativeTarget "BlueToothTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D9ADD91BD7221300AC1194 /* Debug */,
+				18D9ADDA1BD7221300AC1194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18D9ADB11BD7221300AC1194 /* BlueToothTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18D9ADB21BD7221300AC1194 /* BlueToothTest.xcdatamodel */,
+			);
+			currentVersion = 18D9ADB21BD7221300AC1194 /* BlueToothTest.xcdatamodel */;
+			path = BlueToothTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18D9AD9A1BD7221300AC1194 /* Project object */;
+}
